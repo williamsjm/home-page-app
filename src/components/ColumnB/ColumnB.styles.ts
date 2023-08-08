@@ -1,16 +1,13 @@
 import styled from "styled-components";
 
-export const Container = styled.div`
+interface ContainerProps {
+  rickMorty?: boolean;
+}
+
+export const Container = styled.div<ContainerProps>`
   width: 40%;
   height: 40vh;
-  background: linear-gradient(
-    to bottom right,
-    #890001 0%,
-    #9f0000 25%,
-    #d8a40e 50%,
-    #e1b43d 75%,
-    #000000 100%
-  );
+  background: #262626;
   border-radius: 10px;
   position: relative;
 `;

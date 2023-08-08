@@ -11,7 +11,7 @@ const HomePage = () => {
         <ColumnB />
       </Container>
       <Container>
-        <ColumnB />
+        <ColumnB rickMorty={true} />
         <ColumnA rickMorty />
       </Container>
     </div>
