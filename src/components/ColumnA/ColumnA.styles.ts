@@ -11,12 +11,21 @@ export const Container = styled.div`
   align-items: center;
   border: 2px solid black;
 
+  @media (max-width: 768px) {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+  }
 `;
 
 export const WelcomeText = styled.h1`
   text-align: center;
   font-size: 4rem;
   margin-bottom: 20px;
+
+  @media (max-width: 768px) {
+    font-size: 2.5rem;
+  }
 `;
 
 export const StyledButton = styled.button`

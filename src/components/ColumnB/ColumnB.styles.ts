@@ -10,6 +10,11 @@ export const Container = styled.div<ContainerProps>`
   background: #262626;
   border-radius: 10px;
   position: relative;
+
+  @media (max-width: 768px) {
+    width: 100%;
+    height: auto;
+  }
 `;
 
 export const Image = styled.img`
@@ -21,4 +26,8 @@ export const Image = styled.img`
   max-height: 90%;
   width: auto;
   height: auto;
+
+  @media (max-width: 768px) {
+    max-width: 80%;
+  }
 `;
