@@ -14,7 +14,7 @@ const ColumnA: React.FC<ColumnAProps> = ({ rickMorty }) => {
   };
 
   return (
-    <Container>
+    <Container data-testid="columnA">
       <WelcomeText>
         {rickMorty
           ? i18n.t("welcome_message_rick_morty")

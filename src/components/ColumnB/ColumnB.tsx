@@ -9,9 +9,11 @@ interface ColumnBProps {
 
 const ColumnB: React.FC<ColumnBProps> = ({ rickMorty }) => {
   return (
-    <Container>
+    <Container data-testid="columnB">
       {rickMorty ? (
-        <Image src={rick} alt="Rick and Morty" />
+        <div data-testid="columnBWithProps">
+          <Image src={rick} alt="Rick and Morty" />
+        </div>
       ) : (
         <Image src={harryImage} alt="Harry Potter" />
       )}

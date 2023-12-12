@@ -2,7 +2,7 @@
   "extends": "ts-config-single-spa",
   "compilerOptions": {
     "jsx": "react-jsx",
-    "declarationDir": "dist"
+    "declarationDir": "dist",
   },
   "files": ["src/williamsjm-home-page-app.tsx"],
   "include": ["src/**/*"],
